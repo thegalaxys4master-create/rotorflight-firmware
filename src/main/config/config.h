@@ -19,7 +19,10 @@
  */
 
 #pragma once
-
+#ifndef USE_OSD
+#define USE_OSD
+#define USE_OSD_MSP_DISPLAYPORT
+#endif
 #include <stdint.h>
 #include <stdbool.h>
 
