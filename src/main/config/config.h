@@ -19,7 +19,7 @@
  */
 
 #pragma once
-
+#define USE_OSD
 #include <stdint.h>
 #include <stdbool.h>
 
